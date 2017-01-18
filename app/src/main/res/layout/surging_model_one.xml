@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="80dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/surging_model_one_img"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"/>
+    <TextView
+        android:id="@+id/surging_model_one_tv"
+        android:gravity="center"
+        android:text="运动用品"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_margin="3dp"/>
+
+</LinearLayout>

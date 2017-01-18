@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="180dp"
+                android:background="#fff"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:id="@+id/title_gridadapter_item_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/subTitle_gridadapter_item_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_gridadapter_item_two"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/title_gridadapter_item_two"
+        />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/fresco_gridadapter_item_two"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/title_gridadapter_item_two"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@id/title_gridadapter_item_two"
+        android:src="@mipmap/zhanweifu"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1000"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

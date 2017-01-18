@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tmfortm.shihuo.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <RadioButton
+            android:id="@+id/homepage_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="首页"
+            android:button="@null"
+            android:gravity="center"
+            android:checked="true"
+            android:drawableTop="@drawable/homepage_selector"
+            android:textColor="@drawable/text_bg_selector"
+            />
+
+        <RadioButton
+            android:id="@+id/equip_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="装备"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/equip_selector"
+            android:textColor="@drawable/text_bg_selector"
+            />
+
+        <RadioButton
+            android:id="@+id/find_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="发现"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/find_selector"
+            android:textColor="@drawable/text_bg_selector"
+            />
+
+        <RadioButton
+            android:id="@+id/surging_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="淘淘"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/surging_selector"
+            android:textColor="@drawable/text_bg_selector"
+            />
+
+        <RadioButton
+            android:id="@+id/more_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="更多"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/more_selector"
+            android:textColor="@drawable/text_bg_selector"
+            />
+
+    </RadioGroup>
+</LinearLayout>

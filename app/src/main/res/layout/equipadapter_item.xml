@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_equipadapter_item"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最新推荐"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest recommend"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_below="@id/ll_equipadapter_item"
+        android:id="@+id/fresco_equipadapter_item"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/zhanweifu"
+        />
+
+    <TextView
+        android:id="@+id/tag_name_equipadapter_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/equiptext_shape"
+        android:layout_marginLeft="10dp"
+        android:padding="4dp"
+        android:textColor="#f00"
+        android:textSize="11sp"
+        android:layout_toRightOf="@id/fresco_equipadapter_item"
+        android:layout_alignTop="@id/fresco_equipadapter_item"
+        />
+
+    <TextView
+        android:id="@+id/title_equipadapter_item"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/tag_name_equipadapter_item"
+        android:layout_alignTop="@id/tag_name_equipadapter_item"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/fresco_equipadapter_item"
+        android:layout_alignLeft="@id/tag_name_equipadapter_item"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/bg_running_quote_left"/>
+        <TextView
+            android:layout_toRightOf="@id/left"
+            android:id="@+id/intro_equipadapter_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            />
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/bg_running_quote_right"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_toRightOf="@id/fresco_equipadapter_item"
+        android:layout_alignBottom="@id/fresco_equipadapter_item"
+        android:layout_alignLeft="@id/tag_name_equipadapter_item"
+        android:id="@+id/merchant_equipadapter_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/price_equipadapter_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:textSize="10sp"
+        android:layout_alignBottom="@id/fresco_equipadapter_item"
+        android:layout_toRightOf="@id/merchant_equipadapter_item"
+        />
+
+    <LinearLayout
+        android:layout_alignBottom="@id/fresco_equipadapter_item"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ic_see"
+            android:src="@mipmap/ic_see"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:id="@+id/hits_equipadapter_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1000"
+        android:layout_below="@id/fresco_equipadapter_item"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>

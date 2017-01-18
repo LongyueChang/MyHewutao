@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/findFragment_linearTwo_imgOne"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <TextView
+            android:id="@+id/findFragment_linearTwo_one"
+            android:gravity="center"
+            android:text="机器人"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+
+
+    <!-- <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    >
+                                    <com.facebook.drawee.view.SimpleDraweeView
+                                        android:id="@+id/findFragment_linearTwo_imgOne"
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        />
+                                    <TextView
+                                        android:id="@+id/findFragment_linearTwo_one"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="机器人"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <com.facebook.drawee.view.SimpleDraweeView
+                                        android:id="@+id/findFragment_linearTwo_imgTwo"
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"/>
+                                    <TextView
+                                        android:id="@+id/findFragment_linearTwo_two"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="机器人"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <com.facebook.drawee.view.SimpleDraweeView
+                                        android:id="@+id/findFragment_linearTwo_imgThree"
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"/>
+                                    <TextView
+                                        android:id="@+id/findFragment_linearTwo_three"
+                                        android:gravity="top|center_horizontal"
+                                        android:text="机器人"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        />
+                                </LinearLayout>-->
+</LinearLayout>

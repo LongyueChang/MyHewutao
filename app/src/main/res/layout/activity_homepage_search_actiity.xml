@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_homepage_search_actiity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11ccec92"
+    tools:context="com.tmfortm.shihuo.ui.HomepageSearchActiity">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="#1000"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@mipmap/search_icon"
+            android:hint="请输入商品"/>
+
+        <TextView
+            android:id="@+id/cancel_homepage"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="取消"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</RelativeLayout>
